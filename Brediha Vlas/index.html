@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Бредиза Влас</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="step step1" id="step1">
+        <h3 class="title">Stop spending time on mediocre online stuff!</h3>
+        <h2 class="h-step1">EXPLORE OUR INTRIGUING<br />3D GAME</h2>
+        <p class="p-step1">
+          INSTEAD AND EXPERIENCE UNPARALLELED PLEASURE LIKE YOU'VE NEVER SEEN
+          BEFORE.
+        </p>
+        <div class="images">
+          <img
+            src="/image/2cd8b2238cef91ec621fe8eed80e7845.jpg"
+            alt="First Image"
+            class="first-image"
+          />
+          <img
+            src="/image/9203e5069b985ca63d6ae911b3b3a812.jpg"
+            alt="Second Image"
+            class="second-image"
+          />
+        </div>
+
+        <button class="close" onclick="prevStep()">NO,THANKS</button>
+        <button class="continue" onclick="nextStep()">CONTINUE</button>
+        <button class="mute-button" onclick="toggleMute(this)"></button>
+      </div>
+
+      <div class="step step2" id="step2" style="display: none">
+        <h2 class="h-step2">
+          WHO WOULD YOU CHOOSE AS YOUR FIRST PARTNER, IF YOU PLAY RIGHT NOW?
+        </h2>
+        <div class="slider-container">
+          <div class="nav-buttons">
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+          </div>
+          <div class="slider">
+            <div class="slide">
+              <img src="/image/Step-Sister.jpg" alt="Слайд 1" />
+              <p class="slide-text">Step-Sister</p>
+            </div>
+            <div class="slide">
+              <img src="/image/Your Neighbor.jpg" alt="Слайд 2" />
+              <p class="slide-text">Your Neighbor</p>
+            </div>
+            <div class="slide">
+              <img src="/image/Famous Celebrity.jpg" alt="Слайд 3" />
+              <p class="slide-text">Famous Celebrity</p>
+            </div>
+          </div>
+        </div>
+        <button class="next-page" onclick="nextStep()">NEXT</button>
+        <button class="mute-button" onclick="toggleMute(this)"></button>
+      </div>
+
+      <div class="step step3" id="step3" style="display: none">
+        <h2 class="h-step3">WARNING</h2>
+        <p class="age-warning">
+          You must be at least 18 years old and comfortable with mature topics
+          to play the game.
+        </p>
+        <button class="cotinue">OK, CONTINUE</button>
+        <div class="images">
+          <img
+            src="/image/0c829b412ea21a62756d683fea9ce381.jpg"
+            alt="Third Image"
+            class="third-image"
+          />
+          <img
+            src="/image/070d716c6f68984950ef1bbf60dd4a31.jpg"
+            alt="Fourth Image"
+            class="fourth-image"
+          />
+        </div>
+        <button class="mute-button" onclick="toggleMute(this)"></button>
+      </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
