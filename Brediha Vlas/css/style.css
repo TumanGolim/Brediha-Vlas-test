@@ -170,6 +170,7 @@ h2 {
   letter-spacing: 0em;
   text-align: center;
   margin-top: 60px;
+  color: white;
 }
 
 .slider {
@@ -259,7 +260,6 @@ h2 {
 }
 
 .h-step3 {
-  margin-top: 257px;
   width: 593px;
   height: 120px;
   font-size: 120px;
@@ -295,11 +295,8 @@ h2 {
   margin-top: 120px;
 }
 
-@media screen and (max-width: 1024px) {
-}
-
-@media screen and (max-width: 767px) {
-  body {
+@media screen and (max-width: 1180px) {
+    body {
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("/image/moble-bacground.jpg");
@@ -312,28 +309,25 @@ h2 {
     color: transparent;
     -webkit-text-stroke: 0.5px #ffffff;
     font-family: Nirmala UI;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 29px;
-    letter-spacing: 0em;
     text-align: center;
   }
 
   .mute-button {
     width: 30px;
     height: 30px;
-    top: 25px;
+    top: 20px;
     right: 11px;
   }
   /* 1 */
   .step1 {
     margin: 0;
+    display: flex;
+    flex-direction: column;
   }
   .title {
     width: 258px;
     height: 40px;
     top: 20px;
-    left: 51px;
     border-radius: 40px;
     font-family: Nirmala UI;
     font-size: 16px;
@@ -342,30 +336,29 @@ h2 {
     letter-spacing: 0em;
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin: auto;
     padding-top: 8px;
   }
 
   .h-step1 {
+    position: relative;
     width: 308px;
     height: 58px;
-    top: 20px;
-    left: 26px;
+    top: 30px;
     border: 1px;
-
     font-family: Nirmala UI;
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
     letter-spacing: 0em;
     text-align: center;
+    margin: auto;
   }
 
   .p-step1 {
     width: 308px;
     height: 47px;
-    top: 10px;
-    left: 26px;
+    top: 45px;
     margin: auto;
     font-family: Nirmala UI;
     font-size: 12px;
@@ -373,7 +366,7 @@ h2 {
     line-height: 14px;
     letter-spacing: 0.2em;
     text-align: center;
-    margin: 0;
+    margin: auto;
     padding: 0;
   }
 
@@ -381,33 +374,30 @@ h2 {
     position: relative;
     width: 330px;
     height: 56px;
-    top: 207px;
-    left: 15px;
+    top: 240px;
     border-radius: 10px;
-    gap: 10px;
     font-family: Nirmala UI;
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 0;
+    margin: auto;
   }
 
   .close {
     position: relative;
     width: 330px;
     height: 56px;
-    top: 323px;
-    left: 15px;
+    top: 365px;
     border-radius: 10px;
-
     font-family: Nirmala UI;
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
+    margin: auto;
   }
 
   .first-image,
@@ -426,14 +416,14 @@ h2 {
   }
 
   /* 2 */
-
   .h-step2 {
     width: 308px;
     height: 116px;
-    font-size: 64px;
-    line-height: 77px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
     letter-spacing: 0em;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .step {
@@ -442,9 +432,9 @@ h2 {
 
   .slider-container {
     position: relative;
-    width: 172px;
-    height: 199px;
-    margin: 0;
+    width: 225px;
+    height: 278px;
+    margin: auto;
     margin-top: 22px;
     border-radius: 20px;
     border: 1px;
@@ -466,7 +456,7 @@ h2 {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 30px;
   }
 
   .slider {
@@ -475,7 +465,6 @@ h2 {
   }
 
   .slide {
-    width: 100%;
     display: none;
   }
 
@@ -483,6 +472,8 @@ h2 {
     position: relative;
     border-radius: 20px;
     top: 22px;
+    width: 171px;
+    height: 199px;
   }
 
   .slide:first-child {
@@ -492,10 +483,10 @@ h2 {
   .prev,
   .next {
     position: absolute;
-    background-image: url("/image/arrow.svg");
+    background-image: url("/image/arrow-moble.svg");
     width: 51px;
     height: 45px;
-    top: 20px;
+    top: 120px;
     border: none;
     cursor: pointer;
     font-size: 0;
@@ -504,27 +495,379 @@ h2 {
   }
 
   .prev {
-    right: 60px;
+    left: 230px;
   }
 
   .next {
-    left: 60px;
+    left: -60px;
     transform: rotate(180deg);
   }
 
   .next-page {
     width: 330px;
     height: 56px;
-    border-radius: 10px;
-    background: linear-gradient(103.39deg, #ffe53b -32.17%, #ff2525 114.07%);
-    border: none;
-    font-family: "Nirmala UI", sans-serif;
-    font-size: 32px;
+    border-radius: 5px;
+    font-family: Nirmala UI;
+    font-size: 24px;
     font-weight: 700;
-    line-height: 32px;
+    line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
     color: white;
+    margin-top: 20px;
+  }
+  /* 3 */
+
+  .step3 {
+    margin-top: 20px;
+  }
+
+  .third-image,
+  .fourth-image {
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+  }
+
+  .third-image {
+    width: 309px;
+    height: 500px;
+    top: 119px;
+    left: 49px;
+  }
+
+  .fourth-image {
+    display: none;
+  }
+
+  .h-step3 {
+    width: 308px;
+    height: 45px;
+    top: 20px;
+    left: 26px;
+    border: 1px;
+    font-family: Nirmala UI;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .age-warning {
+    width: 308px;
+    height: 72px;
+    top: 75px;
+    left: 26px;
+    font-family: Nirmala UI;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .cotinue {
+    width: 330px;
+    height: 56px;
+    border-radius: 10px;
+    background: linear-gradient(103.39deg, #ffe53b -32.17%, #ff2525 114.07%);
+    border: none;
+    font-family: Nirmala UI;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top: 309px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  body {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/image/moble-bacground.jpg");
+    background-size: cover; /* Растягиваем изображение на всю ширину и высоту экрана */
+    background-position: center; /* Выравниваем изображение по центру */
+    background-attachment: fixed; /* Фоновое изображение фиксируется при прокрутке */
+  }
+
+  h2 {
+    color: transparent;
+    -webkit-text-stroke: 0.5px #ffffff;
+    font-family: Nirmala UI;
+    text-align: center;
+  }
+
+  .mute-button {
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    right: 11px;
+  }
+  /* 1 */
+  .step1 {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    width: 258px;
+    height: 40px;
+    top: 20px;
+    border-radius: 40px;
+    font-family: Nirmala UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    padding-top: 8px;
+  }
+
+  .h-step1 {
+    position: relative;
+    width: 308px;
+    height: 58px;
+    top: 30px;
+    border: 1px;
+    font-family: Nirmala UI;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: auto;
+  }
+
+  .p-step1 {
+    width: 308px;
+    height: 47px;
+    top: 45px;
+    margin: auto;
+    font-family: Nirmala UI;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+  }
+
+  .continue {
+    position: relative;
+    width: 330px;
+    height: 56px;
+    top: 240px;
+    border-radius: 10px;
+    font-family: Nirmala UI;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: auto;
+  }
+
+  .close {
+    position: relative;
+    width: 330px;
+    height: 56px;
+    top: 365px;
+    border-radius: 10px;
+    font-family: Nirmala UI;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: auto;
+  }
+
+  .first-image,
+  .second-image {
+    position: absolute;
+    z-index: -1;
+  }
+
+  .first-image {
+    display: none;
+  }
+
+  .second-image {
+    width: 521px;
+    top: 181px;
+  }
+
+  /* 2 */
+  .h-step2 {
+    width: 308px;
+    height: 116px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-top: 10px;
+  }
+
+  .step {
+    text-align: center;
+  }
+
+  .slider-container {
+    position: relative;
+    width: 225px;
+    height: 278px;
+    margin: auto;
+    margin-top: 22px;
+    border-radius: 20px;
+    border: 1px;
+    background: #ffffff33;
+    border: 0.5px solid #ffffff;
+  }
+
+  .slide-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .slide-text {
+    font-family: Nirmala UI;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .slider {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .slide {
+    display: none;
+  }
+
+  .slide img {
+    position: relative;
+    border-radius: 20px;
+    top: 22px;
+    width: 171px;
+    height: 199px;
+  }
+
+  .slide:first-child {
+    display: block;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    background-image: url("/image/arrow-moble.svg");
+    width: 51px;
+    height: 45px;
+    top: 120px;
+    border: none;
+    cursor: pointer;
+    font-size: 0;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .prev {
+    left: 230px;
+  }
+
+  .next {
+    left: -60px;
+    transform: rotate(180deg);
+  }
+
+  .next-page {
+    width: 330px;
+    height: 56px;
+    border-radius: 5px;
+    font-family: Nirmala UI;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+  /* 3 */
+
+  .step3 {
+    margin-top: 20px;
+  }
+
+  .third-image,
+  .fourth-image {
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+  }
+
+  .third-image {
+    width: 309px;
+    height: 500px;
+    top: 119px;
+    left: 49px;
+  }
+
+  .fourth-image {
+    display: none;
+  }
+
+  .h-step3 {
+    width: 308px;
+    height: 45px;
+    top: 20px;
+    left: 26px;
+    border: 1px;
+    font-family: Nirmala UI;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .age-warning {
+    width: 308px;
+    height: 72px;
+    top: 75px;
+    left: 26px;
+    font-family: Nirmala UI;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .cotinue {
+    width: 330px;
+    height: 56px;
+    border-radius: 10px;
+    background: linear-gradient(103.39deg, #ffe53b -32.17%, #ff2525 114.07%);
+    border: none;
+    font-family: Nirmala UI;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top: 309px;
   }
 }
