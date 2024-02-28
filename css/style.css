@@ -330,7 +330,7 @@ h2 {
   }
 
   .mute-button {
-    width: 40px;
+    width: 50px;
     height: 40px;
     top: 30px;
     right: 50px;
@@ -622,10 +622,10 @@ h2 {
   }
 
   .mute-button {
-    width: 30px;
+    width: 40px;
     height: 30px;
     top: 20px;
-    right: 11px;
+    right: 21px;
   }
   /* 1 */
   .step1 {
