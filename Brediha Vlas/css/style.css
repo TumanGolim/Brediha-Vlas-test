@@ -296,13 +296,11 @@ h2 {
 }
 
 @media screen and (max-width: 1180px) {
-    body {
+  body {
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("/image/moble-bacground.jpg");
-    background-size: cover; /* Растягиваем изображение на всю ширину и высоту экрана */
-    background-position: center; /* Выравниваем изображение по центру */
-    background-attachment: fixed; /* Фоновое изображение фиксируется при прокрутке */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
 
   h2 {
@@ -313,41 +311,41 @@ h2 {
   }
 
   .mute-button {
-    width: 30px;
-    height: 30px;
-    top: 20px;
-    right: 11px;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    right: 50px;
   }
   /* 1 */
   .step1 {
-    margin: 0;
+    margin: 40px;
     display: flex;
     flex-direction: column;
   }
   .title {
-    width: 258px;
-    height: 40px;
+    width: 500px;
+    height: 35px;
     top: 20px;
     border-radius: 40px;
     font-family: Nirmala UI;
-    font-size: 16px;
+    font-size: 23px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
     padding: 0;
     margin: auto;
-    padding-top: 8px;
+    padding-top: 5px;
   }
 
   .h-step1 {
     position: relative;
-    width: 308px;
+    width: 770px;
     height: 58px;
     top: 30px;
     border: 1px;
     font-family: Nirmala UI;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 29px;
     letter-spacing: 0em;
@@ -356,14 +354,14 @@ h2 {
   }
 
   .p-step1 {
-    width: 308px;
+    width: 770px;
     height: 47px;
     top: 45px;
     margin: auto;
     font-family: Nirmala UI;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 14px;
+    line-height: 30px;
     letter-spacing: 0.2em;
     text-align: center;
     margin: auto;
@@ -411,15 +409,15 @@ h2 {
   }
 
   .second-image {
-    width: 521px;
+    width: 721px;
     top: 181px;
   }
 
   /* 2 */
   .h-step2 {
-    width: 308px;
+    width: 770px;
     height: 116px;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 700;
     line-height: 29px;
     letter-spacing: 0em;
@@ -432,8 +430,8 @@ h2 {
 
   .slider-container {
     position: relative;
-    width: 225px;
-    height: 278px;
+    width: 274px;
+    height: 343px;
     margin: auto;
     margin-top: 22px;
     border-radius: 20px;
@@ -472,8 +470,8 @@ h2 {
     position: relative;
     border-radius: 20px;
     top: 22px;
-    width: 171px;
-    height: 199px;
+    width: 200px;
+    height: 237px;
   }
 
   .slide:first-child {
@@ -495,11 +493,11 @@ h2 {
   }
 
   .prev {
-    left: 230px;
+    left: 330px;
   }
 
   .next {
-    left: -60px;
+    left: -110px;
     transform: rotate(180deg);
   }
 
@@ -514,12 +512,12 @@ h2 {
     letter-spacing: 0em;
     text-align: center;
     color: white;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   /* 3 */
 
   .step3 {
-    margin-top: 20px;
+    margin-top: 60px;
   }
 
   .third-image,
@@ -530,36 +528,39 @@ h2 {
   }
 
   .third-image {
-    width: 309px;
-    height: 500px;
-    top: 119px;
-    left: 49px;
+    width: 523px;
+    height: 712px;
+    top: 197px;
+    left: -50px;
   }
 
   .fourth-image {
-    display: none;
+    width: 667px;
+    height: 712px;
+    top: 197px;
+    right: -100px;
   }
 
   .h-step3 {
-    width: 308px;
+    width: 508px;
     height: 45px;
     top: 20px;
     left: 26px;
     border: 1px;
     font-family: Nirmala UI;
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 700;
     line-height: 44px;
     letter-spacing: 0em;
     text-align: center;
   }
   .age-warning {
-    width: 308px;
+    width: 708px;
     height: 72px;
     top: 75px;
     left: 26px;
     font-family: Nirmala UI;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
@@ -583,15 +584,15 @@ h2 {
   }
 }
 
-
 @media screen and (max-width: 767px) {
   body {
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("/image/moble-bacground.jpg");
-    background-size: cover; /* Растягиваем изображение на всю ширину и высоту экрана */
-    background-position: center; /* Выравниваем изображение по центру */
-    background-attachment: fixed; /* Фоновое изображение фиксируется при прокрутке */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: visible;
   }
 
   h2 {
