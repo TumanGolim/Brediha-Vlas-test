@@ -23,7 +23,7 @@ h2 {
 .mute-button {
   width: 52px;
   height: 52px;
-  background-image: url("/image/sound.png");
+  background-image: url("/image/sound.jpg");
   background-size: cover;
   border: none;
   cursor: pointer;
@@ -33,6 +33,13 @@ h2 {
   background-color: transparent;
 }
 
+.mute-button.muted {
+  background-image: url("/image/soundoff.jpg");
+}
+
+.mute-button:focus {
+  outline: none;
+}
 /* 1*/
 .step1 {
   margin-top: 191px;
