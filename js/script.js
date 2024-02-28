@@ -40,8 +40,8 @@ let isMuted = false;
 function toggleMute(muteButton) {
   muteButton.classList.toggle("muted");
   if (muteButton.classList.contains("muted")) {
-    muteButton.style.backgroundImage = 'url("/image/soundoff.png")';
+    muteButton.style.backgroundImage = 'url("../image/soundoff.png")';
   } else {
-    muteButton.style.backgroundImage = 'url("/image/sound.png")';
+    muteButton.style.backgroundImage = 'url("../image/sound.png")';
   }
 }
