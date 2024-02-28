@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(rgba(0, 0, 0, 0.5)), url("/image/background.jpg");
+  background: url("/image/background.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -22,7 +22,7 @@ h2 {
 .mute-button {
   width: 52px;
   height: 52px;
-  background-image: url("/image/sound.jpg");
+  background-image: url("/image/sound.png");
   background-size: cover;
   border: none;
   cursor: pointer;
@@ -33,7 +33,7 @@ h2 {
 }
 
 .mute-button.muted {
-  background-image: url("/image/soundoff.jpg");
+  background-image: url("/image/soundoff.png");
 }
 
 .mute-button:focus {
