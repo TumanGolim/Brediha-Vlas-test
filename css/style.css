@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./image/background.jpg");
+    url("/image/background.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -23,7 +23,7 @@ h2 {
 .mute-button {
   width: 52px;
   height: 52px;
-  background-image: url("./image/sound.png");
+  background-image: url("/image/sound.png");
   background-size: cover;
   border: none;
   cursor: pointer;
@@ -196,7 +196,7 @@ h2 {
 .prev,
 .next {
   position: absolute;
-  background-image: url("./image/arrow.svg");
+  background-image: url("/image/arrow.svg");
   width: 134px;
   height: 88px;
   top: 200px;
@@ -481,7 +481,7 @@ h2 {
   .prev,
   .next {
     position: absolute;
-    background-image: url("./image/arrow-moble.svg");
+    background-image: url("/image/arrow-moble.svg");
     width: 51px;
     height: 45px;
     top: 120px;
@@ -588,7 +588,7 @@ h2 {
   body {
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("./image/moble-bacground.jpg");
+      url("/image/moble-bacground.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -773,7 +773,7 @@ h2 {
   .prev,
   .next {
     position: absolute;
-    background-image: url("./image/arrow-moble.svg");
+    background-image: url("/image/arrow-moble.svg");
     width: 51px;
     height: 45px;
     top: 120px;
