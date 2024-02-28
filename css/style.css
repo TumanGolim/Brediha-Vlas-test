@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Nirmala UI";
+  src: url("../fronts/Nirmala_UI_Bold.woff2") format("woff2"),
+    url("../fronts/Nirmala_UI_Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -9,7 +17,7 @@ body {
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: Nirmala UI;
   font-weight: 700;
   text-align: center;
   background: linear-gradient(170.09deg, #eb5d38 31.89%, #ffd600 92.03%);
@@ -54,13 +62,13 @@ h2 {
 
 .title {
   position: relative;
-  width: 719px;
+  width: 779px;
   height: 36px;
   padding: 16px 30px;
   border-radius: 40px;
   border: 1px solid #ffffff;
   background: #ffffff33;
-  font-family: "Montserrat", sans-serif;
+  font-family: Nirmala UI;
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
@@ -82,7 +90,7 @@ h2 {
   width: 1100px;
   height: 93px;
   margin: auto;
-  font-family: "Montserrat", sans-serif;
+  font-family: Nirmala UI;
   font-size: 28px;
   font-weight: 700;
   line-height: 39px;
@@ -98,7 +106,7 @@ h2 {
   border-radius: 10px;
   background: linear-gradient(103.39deg, #ffe53b -32.17%, #ff2525 114.07%);
   border: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nirmala UI", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 32px;
@@ -115,7 +123,7 @@ h2 {
   border-radius: 10px;
   border: 2px solid #ffffff;
   background-color: transparent;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nirmala UI", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 32px;
@@ -177,7 +185,7 @@ h2 {
 }
 
 .slide-text {
-  font-family: "Montserrat", sans-serif;
+  font-family: Nirmala UI;
   font-size: 32px;
   font-weight: 700;
   line-height: 38px;
@@ -236,7 +244,7 @@ h2 {
   border-radius: 10px;
   background: linear-gradient(103.39deg, #ffe53b -32.17%, #ff2525 114.07%);
   border: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nirmala UI", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 32px;
@@ -282,7 +290,7 @@ h2 {
 .age-warning {
   width: 785px;
   height: 90px;
-  font-family: "Montserrat", sans-serif;
+  font-family: Nirmala UI;
   font-size: 32px;
   font-weight: 400;
   line-height: 45px;
@@ -299,7 +307,7 @@ h2 {
   border-radius: 10px;
   background: linear-gradient(103.39deg, #ffe53b -32.17%, #ff2525 114.07%);
   border: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nirmala UI", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 32px;
@@ -320,7 +328,7 @@ h2 {
   h2 {
     color: transparent;
     -webkit-text-stroke: 0.5px #ffffff;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     text-align: center;
   }
 
@@ -341,7 +349,7 @@ h2 {
     height: 35px;
     top: 20px;
     border-radius: 40px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 23px;
     font-weight: 400;
     line-height: 19px;
@@ -358,7 +366,7 @@ h2 {
     height: 58px;
     top: 30px;
     border: 1px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 40px;
     font-weight: 700;
     line-height: 29px;
@@ -372,7 +380,7 @@ h2 {
     height: 47px;
     top: 45px;
     margin: auto;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
@@ -388,7 +396,7 @@ h2 {
     height: 56px;
     top: 240px;
     border-radius: 10px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
@@ -403,7 +411,7 @@ h2 {
     height: 56px;
     top: 365px;
     border-radius: 10px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
@@ -462,7 +470,7 @@ h2 {
   }
 
   .slide-text {
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -519,7 +527,7 @@ h2 {
     width: 330px;
     height: 56px;
     border-radius: 5px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
@@ -561,7 +569,7 @@ h2 {
     top: 20px;
     left: 26px;
     border: 1px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 56px;
     font-weight: 700;
     line-height: 44px;
@@ -573,7 +581,7 @@ h2 {
     height: 72px;
     top: 75px;
     left: 26px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 25px;
     font-weight: 400;
     line-height: 24px;
@@ -587,7 +595,7 @@ h2 {
     border-radius: 10px;
     background: linear-gradient(103.39deg, #ffe53b -32.17%, #ff2525 114.07%);
     border: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
@@ -612,7 +620,7 @@ h2 {
   h2 {
     color: transparent;
     -webkit-text-stroke: 0.5px #ffffff;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     text-align: center;
   }
 
@@ -633,7 +641,7 @@ h2 {
     height: 40px;
     top: 20px;
     border-radius: 40px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -650,7 +658,7 @@ h2 {
     height: 58px;
     top: 30px;
     border: 1px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
@@ -664,7 +672,7 @@ h2 {
     height: 47px;
     top: 45px;
     margin: auto;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 12px;
     font-weight: 700;
     line-height: 14px;
@@ -680,7 +688,7 @@ h2 {
     height: 56px;
     top: 240px;
     border-radius: 10px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
@@ -695,7 +703,7 @@ h2 {
     height: 56px;
     top: 365px;
     border-radius: 10px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
@@ -754,7 +762,7 @@ h2 {
   }
 
   .slide-text {
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -811,7 +819,7 @@ h2 {
     width: 330px;
     height: 56px;
     border-radius: 5px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
@@ -850,7 +858,7 @@ h2 {
     top: 20px;
     left: 26px;
     border: 1px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 48px;
     font-weight: 700;
     line-height: 44px;
@@ -862,7 +870,7 @@ h2 {
     height: 72px;
     top: 75px;
     left: 26px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -876,7 +884,7 @@ h2 {
     border-radius: 10px;
     background: linear-gradient(103.39deg, #ffe53b -32.17%, #ff2525 114.07%);
     border: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: Nirmala UI;
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
